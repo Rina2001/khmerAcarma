@@ -1,0 +1,367 @@
+<!doctype html>
+<html class="no-js" lang="en-US">
+<head>
+
+    <!-- DEFAULT META TAGS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!--    bootrap file-->
+    <link rel="stylesheet" type="text/css" href="files/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="files/css/bootstrap-wysihtml5.css">
+    <!-- FONTS -->
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Lora:400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Bayon|Francois+One' rel='stylesheet' type='text/css'>
+    
+
+    
+    <!-- CSS -->
+     <link rel="stylesheet" id="default-style-css"  href="files/css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="fontawesome-style-css" href="files/css/font-awesome.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="ionic-icons-style-css" href="files/css/ionicons.css" type="text/css" media="all" />
+	<link rel="stylesheet" id="isotope-style-css"  href="files/css/isotope.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="mqueries-style-css"  href="files/css/mqueries.css" type="text/css" media="all" />
+    
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="files/uploads/logo.png"/>
+    
+    <!-- DOCUMENT TITLE -->
+    <title>Khmer Academy | E-learning platform for Khmer people</title>
+    <style>
+        
+        a:hover{
+            text-decoration: none;
+        }
+        #k-forumn{
+            color: #3EAB48; 
+        }
+        /*        askQuestion*/
+        .Question,.AskQuestion{
+            background-color: lightgray;
+            color: #3EAB48;
+            font-size: 20px;
+            margin-left: 6px;
+         
+        }
+        
+        ul.list-inline li a:hover{
+            background: #41a500;
+            color: white;
+        }
+         ul.list-inline li a {
+            padding: 4px 10px 5px;
+            font-size: 18px;
+            line-height: 1.3;
+            color: #FFF;
+            background: #9fa6ad;
+            transition: background .15s ease;
+        }
+        #text{
+              height: 32px;
+                width: 500px !important; 
+        }
+        input#button.form-control{
+                background: #69ad00;
+        }
+        input#button.form-control:hover {
+                background-color: darkorange;
+        }
+        body,html{
+            font-family: 'Francois One','Bayon'; 
+        }
+         body,html{
+            font-family: 'Francois One','Bayon'; 
+        }
+
+    </style>
+</head>
+
+<body>
+
+<!-- PAGELOADER -->
+<div id="page-loader">
+	<div class="page-loader-inner">
+     	<span class="loader-figure"></span>
+        <img class="loader-logo" src="files/uploads/logo_full.png" alt="Loader Logo">
+	</div>
+</div>
+<!-- PAGELOADER -->
+
+<!-- PAGE CONTENT -->
+<div id="page-content">
+
+	<!-- HEADER -->
+	<header id="header" class="header-bordered header-transparent transparent-light">        
+		<div class="header-inner clearfix">
+			
+            <!-- LOGO -->
+            <div id="logo" class="left-float">
+                <a href="index.html">
+                	<img id="scroll-logo" src="files/uploads/logo_scroll.png"  alt="Logo Scroll">
+                	<img id="light-logo" src="files/uploads/logo.png" alt="Logo Light">
+                </a>
+            </div>
+            
+            <!-- MAIN NAVIGATION -->
+            <div id="menu" class="right-float">
+    			<a href="#" class="responsive-nav-toggle"><span class="hamburger"></span></a>
+                <div class="menu-inner">
+                    <nav id="main-nav">
+                        <ul>
+                            <li class="menu-item"><a href="index.html">Home</a> </li>
+                            <li class="menu-item"><a href="elearning.html">E-learning</a></li>
+                            <li class="menu-item"><a href="totorial.html">Tutorials</a> </li>
+                            <li class="menu-item"><a href="forum.html">Forum</a></li>
+                            <li class="menu-item-has-children"><a href="http://www.moeys.gov.kh">Moeys</a> 
+                                <ul class="submenu">
+                                    <li class="menu-item"><a href="http://oer.moeys.gov.kh">OER</a></li>
+                                    <li class="menu-item"><a href="http://krou.moeys.gov.kh">KROU</a></li> 
+                                </ul>
+                            </li>
+                            <li class="menu-item"><a href="login.html">Login</a></li>
+                        </ul>
+                    </nav>
+                    
+                    <div id="menu-misc" class="clearfix">    
+                        
+                        <!-- HEADER SEARCH -->
+                        <div id="header-search">
+                            <a href="#" id="show-search"><i class="fa fa-search"></i></a>
+                            <div class="header-search-content">
+                                <form action="" method="get">
+                                    <a href="#" id="close-search"></a>
+                                    <input type="text" name="q" class="form-control" value="" placeholder="Enter your search ...">
+                                    <h5 class="subtitle-1">... & press enter to start</h5>
+                                </form>
+                                <div class="search-outer"></div>
+                            </div>
+                        </div>
+                        
+                
+                        
+                        <!-- HEADER LANGUAGE -->
+                        <div id="header-language">
+                            <a href="#" id="show-language">En <i class="ion ion-ios-arrow-down"></i></a>
+                            <div class="header-language-content">
+                                <ul class="lang-select">
+                                    <li><a href="#">KH</a></li>
+                                </ul>
+                            </div>
+                        </div><!-- END #header-language -->
+                        
+                    </div><!-- END #menu-misc -->
+                </div><!-- END .menu-inner -->
+            </div><!-- END #menu -->
+            
+		</div> <!-- END .header-inner -->
+	</header>
+	    
+    <!-- HERO  -->
+	<section id="hero" class="hero-auto parallax-section" data-parallax-image="files/uploads/hero-portfolio-2.jpg">
+    	
+        <div id="page-title" class="wrapper align-center">
+            <h2><strong>Khmer Academy</strong></h2>
+            <h4 class="subtitle-2">The first E-learning platform for khmer people</h4>
+        </div> <!-- END #page-title -->
+        
+    </section>
+    <!-- HERO -->
+    
+     <!-- PAGEBODY -->
+        <div class="container">
+                 <div class="row">
+                    <div class="col-sm-4 col-xs-3"></div>
+                    <div class="col-sm-4 col-xs-8">
+                        <h2 id="k-forumn">
+                                <span STYLE="font-family: 'Francois One','Bayon'; font-size: 70%;">វេទិកា សួរសំនួរ</span>
+                        </h2>
+                    </div>
+                </div>         
+                        <br>  
+                <div class="row">
+                        <div class="col-sm-9 col-xs-4"></div>
+                        <div class="col-sm-3 col-xs-8">
+                             <ul class="list-inline">
+                                    <li><a href="forumn.html" style="background-color:#41a500;">សំនួរ</a></li>
+                                    <li><a href="askQuestion.html" >សួរសំនួរ</a></li>
+                                </ul>
+                        </div>
+                </div>  
+                <div class="row">
+                    <div class="col-sm-9">
+                            <form class="form-inline" role="form">
+                                <div class="form-group">
+                                    សរសេរត្រង់នេះ
+                                    <input type="text" class="form-control" id="text" placeholder="សូម​សរសេរសំនួរនៅទីនេះ" >
+                                </div>
+                            </form>
+                            <div class="hero-unit" style="margin-top:40px">
+        
+                                <textarea  rows="20" cols="50" class="textarea form-control" placeholder="ពត័មានលំអិត...." ></textarea>
+                            </div>
+                       
+                        
+                       <span><a>ផ្នែក ដែលត្រូវការចង់ដឹង</a></span>
+                        <span> 
+                            <select class="selectpicker">
+                            <optgroup label="E-learning">
+                            <option>Java</option>
+                            <option>C# Programming</option>
+                            <option>c++</option>
+                            <option>MAthematic</option>
+                            </optgroup>
+                            <optgroup label="Our Service">
+                            <option>អំពី Khmer Academy</option>
+                            <option>HRD Center</option>
+                            <option>Other Service</option>
+                            </optgroup>
+                        </select></span>
+                        <br><br>
+                        <hr>
+                            <form class="form-inline" role="form">
+                                <div class="form-group">
+                                    <input type="submit" class="form-control" id="button" value="Post Question" >
+                                </div>
+                            </form>
+                    </div>
+                    <div class="col-sm-3">
+                          <p class="hidden-xs" style="margin-bottom:110px !important; width:200px !important;"  ></p>   
+                        
+                        <div class="panel panel-primary" >
+                            <div class="panel-heading">របៀបសួរសំនួរ</div>
+                            <div class="panel-body" style="background-color:beige;">
+                                <p>សូមសរសេរសំនួរ​ដែលមាន​ខ្លឹមសារច្បាស់លាស់​ដែលពាក់ព័ន្ធនឹងអ្វី ដែលអ្នកត្រូវការ</p>
+                            </div>
+                            
+                        </div>
+                        <div class="panel panel-primary" >
+                            <div class="panel-heading">សំនួរដែលមានរួចមក​ហើយ</div>
+                            <div class="panel-body" style="background-color:beige;">
+                                <h5 style="color:blue;"><a href="Answer.html" class="titleQuestion">1 តើធ្វើយ៉ាងដូចម្តេច ដើម្បីប្រើប្រាស់Khmer Academy?</a></h5><hr style="color:lightgray">
+                                 <h5><a href="Answer.html" class="titleQuestion">2 តើធ្វើយ៉ាងដូចម្តេច ដើម្បីប្រើប្រាស់Khmer Academy?</a></h5>
+                            </div>
+                            
+                        </div>
+<!--                   Socical Media-->
+                                    <div id="share">
+                                         <h5 class="hidden-xs">Follows Social Media</h5><hr>
+                                            <ul>
+                                                <li class="facebook">
+                                                    <a href="https://web.facebook.com/KhmerAcademy.Org">        <span>Share</span>
+                                                    </a>
+                                                </li>
+                                                <li class="twitter"><a href="#"><span>Tweet</span></a></li>
+                                                <li class="googleplus"><a href="#"><span>Share</span></a></li>
+                                            </ul>
+                                        <hr>
+                                        <br>
+                                           <h5 style="font-family:Slabo;"  class="hidden-xs">You will fall in love <a id="khmerAcademy"  href="../index.html">khmer academy</a>
+                                    <iframe class="hidden-xs" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FKhmerAcademy.Org%2F&tabs=timeline&width=260&height=300&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId" width="260" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                    </div>
+<!--                        End Social Media-->
+                    </div>
+                </div>
+        </div>   
+ </div>
+    <footer id="footer" class="footer-dark text-light">
+       	<div class="footer-inner wrapper">
+       
+            <div class="column-section clearfix">
+            	<div class="column two-fifth">
+                	<div class="widget">
+                    	<img src="files/uploads/logo_full.png"  alt="Logo">
+                        <div class="spacer-mini"></div>
+                        <p>Khmer academy is the first e-learning platform for Khmer people only. We, the team started out to provide Cambodian students with quality educational material.</p>
+                    </div>
+                    
+                     <div class="widget">
+                        <ul class="socialmedia-widget hover-fade-1">
+                            <li class="facebook"><a href="https://www.facebook.com/KhmerAcademy.Org/"></a></li>
+                            <li class="googleplus"><a href="https://plus.google.com/+KhmerAcademyOrg/posts"></a></li>
+                            <li class="youtube"><a href="https://www.youtube.com/channel/UCnE8zj9WeCl0Jvi8mX6olww"></a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            	<div class="column one-fifth">
+                	<div class="widget">
+                    	<h6 class="widget-title uppercase">Quick Menu</h6>
+                        <ul class="menu">
+                        	<li><a href="elearning.html">E-learning</a></li>
+                        	<li><a href="tutorial.html">Tutorials</a></li>
+                        	<li><a href="forum.html">Forum</a></li>
+                        	<li><a href="login.html">Login</a></li>
+                            <li><a href="register.html">Register</a></li>
+                        </ul>
+                    </div>
+                </div>
+            	<div class="column one-fifth">
+                	<div class="widget">
+                    	<h6 class="widget-title uppercase">Categories</h6>
+                        <ul class="menu">
+                            <li><a href="highschoolsubjects.html" title="Branding">High School Subjects</a></li>
+                            <li><a href="basiccomputer.html" title="Print">Basic Computer</a></li>
+                            <li><a href="languages.html" title="Print">Languages</a></li>
+                            <li><a href="softwaredevelopment.html" title="Branding">Software Development</a></li>
+                            <li><a href="grapicdesign" title="Print">Grapic Design</a></li>
+                        </ul>
+                    </div>
+                </div>
+            	<div class="column one-fifth last-col">
+                	<div class="widget">	
+                        <h6 class="widget-title uppercase">Moblie App</h6>
+                        <ul class="menu">
+                            <li> <a href="https://itunes.apple.com/kh/app/khmer-academy/id1082906587?mt=8">
+                                    <img src="files/uploads/appstore.png" alt="IOSApp">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://play.google.com/store/apps/details?id=org.khmeracademy">
+                                    <img src="files/uploads/googleplay.png" alt="IOSApp">
+                                </a>
+                            </li>
+                        </ul>      
+                    </div>
+                </div>
+            </div>
+                                    
+            <a id="backtotop" href="#">Back to top</a>
+        </div>
+        
+         <div class="copyright"><small>Copyright &copy; 2016 Khmer Academy - Made with Love by <a href="http:">KPS G1</a></small></div>
+    </footer>
+    <!-- FOOTER -->
+    
+</div> <!-- END #page-content -->
+<!-- PAGE CONTENT -->
+
+<!-- SCRIPTS -->
+    
+    
+<script src="files/js/jquery-2.1.4.min.js"></script>
+<script src="files/js/bootstrap.min.js"></script>
+<script src="files/js/wysihtml5-0.3.0.js"></script>
+<script src="files/js/bootstrap3-wysihtml5.js"></script>
+<script type="text/javascript" src="files/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="files/js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="files/js/tweenMax.js"></script>
+<script type="text/javascript" src="files/js/jquery.backgroundparallax.min.js"></script>
+<script type="text/javascript" src="files/js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="files/js/jquery.imagesloaded.min.js"></script>
+<script type="text/javascript" src="files/js/script.js"></script>
+    
+       
+    
+<script>
+    $('.textarea').wysihtml5();
+</script>
+
+<script type="text/javascript" charset="utf-8">
+    $(prettyPrint);
+</script>  
+
+
+</body>
+</html>
